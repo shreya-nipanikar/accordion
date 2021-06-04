@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+body {
+  background: url("https://st2.depositphotos.com/1625616/9072/i/950/depositphotos_90723206-stock-photo-elegant-white-silver-glitter-sparkle.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  padding-bottom: 35px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.myclass {
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mymain {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.icon {
+  width: 17px;
+  height: 20px;
+  padding-bottom: 6px;
+  padding-right: 4px;
+}
+.btnn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 560px) {
+  .mymain,
+  h6 {
+    font-size: 12px;
+    font-weight: 100px;
   }
 }
